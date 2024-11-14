@@ -5,8 +5,8 @@ export class Cliente extends Persona {
     private cantVisitas: number = 1;
     private visitas: string [] = [];
 
-    constructor(id: string, nombre: string, edad: number, email: string, telefono: number, motivoVisita: string){
-        super(id, nombre, edad, email, telefono);
+    constructor(id: string, nombre: string, telefono: number, motivoVisita: string){
+        super(id, nombre, telefono);
         this.visitas [0] = motivoVisita;
     }
 
